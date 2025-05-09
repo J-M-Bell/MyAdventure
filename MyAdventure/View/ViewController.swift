@@ -42,7 +42,7 @@ class ViewController: UIViewController {
             }
             else if promptLogic.getCurrentPromptIndex() >= 4 {
                 if sender == choiceOneButton {
-                    promptLogic.setCurrentPromptIndex(5)
+                    promptLogic.setCurrentPromptIndex(4)//change to 5
                     showRestartButton()
                     showPrompt()
                 }
